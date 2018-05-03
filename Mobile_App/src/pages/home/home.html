@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <button ion-button full color="primary" (click)="getPicture()">Take mannequin picture</button>
+  <button ion-button full color="primary" (click)="getPicture()">Take body picture</button>
+  <button ion-button full (click)="openGallery()">open Gallery</button>
+  <button ion-button full (click)="cropPicture()">crop </button>
+  
+  <button ion-button full (click)="UploadImage()">UploadImage</button>
+
+ <p> align = "center" ><img src= "{{ myphoto }}" /></p> 
+</ion-content>
